@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class LaunchStuff : MonoBehaviour
 {
+    //Wat do we launch??
+    // Put Reference here
+
     // Start is called before the first frame update
     void Start()
     {
@@ -12,6 +15,11 @@ public class LaunchStuff : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+    {
+        
+    }
+
+    public void LaunchSomething()
     {
         
     }

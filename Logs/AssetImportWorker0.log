@@ -112,3 +112,32 @@ System memory in use after: 186.7 MB.
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2525.
 Total: 4.586665 ms (FindLiveObjects: 0.304963 ms CreateObjectMapping: 0.134547 ms MarkObjects: 3.988782 ms  DeleteObjects: 0.156705 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004352 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.793 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.0 MB.
+System memory in use after: 187.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2529.
+Total: 3.650704 ms (FindLiveObjects: 0.280574 ms CreateObjectMapping: 0.162902 ms MarkObjects: 3.040910 ms  DeleteObjects: 0.164971 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 421.899432 seconds.
+  path: Assets/Scripts/LaunchStuff.cs
+  artifactKey: Guid(4d127134469ea43df863d32f18da8746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LaunchStuff.cs using Guid(4d127134469ea43df863d32f18da8746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f147420c90149c594964cd0d56fc98d') in 0.015371 seconds
+  Import took 0.020215 seconds .
+
