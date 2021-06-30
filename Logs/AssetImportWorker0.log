@@ -1,0 +1,114 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/jflannery/Documents/UnityProjects/LauncherGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53472
+Successfully changed project path to: /Users/jflannery/Documents/UnityProjects/LauncherGame
+/Users/jflannery/Documents/UnityProjects/LauncherGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 181.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/jflannery/Documents/UnityProjects/LauncherGame/Assets
+GfxDevice: creating device client; threaded=0
+2021-06-30 09:22:35.090 Unity[12662:693266] Color LCD preferred device: NVIDIA GeForce GT 750M (high power)
+2021-06-30 09:22:35.090 Unity[12662:693266] Metal devices available: 2
+2021-06-30 09:22:35.090 Unity[12662:693266] 0: NVIDIA GeForce GT 750M (high power)
+2021-06-30 09:22:35.090 Unity[12662:693266] 1: Intel Iris Pro Graphics (low power)
+2021-06-30 09:22:35.091 Unity[12662:693266] Using device NVIDIA GeForce GT 750M (high power)
+Initializing Metal device caps: NVIDIA GeForce GT 750M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56662
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.11f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002544 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 77.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.502 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006067 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 82.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.584 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.5 MB.
+System memory in use after: 174.4 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2513.
+Total: 4.923926 ms (FindLiveObjects: 0.324580 ms CreateObjectMapping: 0.224795 ms MarkObjects: 4.113535 ms  DeleteObjects: 0.259171 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Circle.prefab
+  artifactKey: Guid(3ae0064e9f4454a86b5861389b4b7be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Circle.prefab using Guid(3ae0064e9f4454a86b5861389b4b7be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4906cdbc9ebc9a09f3b9b5b8a5e900c2') in 0.974180 seconds
+  Import took 0.980277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.866379 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(84934361c5f194543abed98d66112b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(84934361c5f194543abed98d66112b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dae305cd028fc025e57e36c10d884e0') in 0.002064 seconds
+  Import took 0.009923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.057955 seconds.
+  path: Assets/Scripts/LaunchStuff.cs
+  artifactKey: Guid(4d127134469ea43df863d32f18da8746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LaunchStuff.cs using Guid(4d127134469ea43df863d32f18da8746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c792cd853114cc758b69ed9a6a259067') in 0.418603 seconds
+  Import took 0.424686 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003426 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.892 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.8 MB.
+System memory in use after: 186.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2525.
+Total: 4.586665 ms (FindLiveObjects: 0.304963 ms CreateObjectMapping: 0.134547 ms MarkObjects: 3.988782 ms  DeleteObjects: 0.156705 ms)
+
