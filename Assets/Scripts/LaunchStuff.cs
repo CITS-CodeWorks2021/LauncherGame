@@ -6,6 +6,7 @@ public class LaunchStuff : MonoBehaviour
 {
     //Wat do we launch??
     // Put Reference here
+	GameObject stuff;
 
     // Start is called before the first frame update
     void Start()
