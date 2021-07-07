@@ -8,6 +8,7 @@ public class SimpleTimer : MonoBehaviour
     bool isTiming;
     float curTime;
 
+    public Animator uiAnims;
    
 
     // Update is called once per frame
@@ -26,6 +27,8 @@ public class SimpleTimer : MonoBehaviour
     public void TurnOnMain()
     {
         mainPanel.SetActive(true);
+
+        uiAnims.SetTrigger("goRoot");
     }
 
     public void CountTime(bool shouldCount)
