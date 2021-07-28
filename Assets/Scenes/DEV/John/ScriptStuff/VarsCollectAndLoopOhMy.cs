@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class VarsCollectAndLoopOhMy : MonoBehaviour
 {
     public float aFloat;
     public int anInt;
     public string aString;
     public GameObject anObject;
-
+    
     public GameState watState;
 
     public YourScriptNameHere yourCustomScript;
